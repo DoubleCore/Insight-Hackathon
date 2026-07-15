@@ -4,22 +4,13 @@ param(
 
 $ErrorActionPreference = "Stop"
 $Root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
-$Python = "F:\panda\miniconda\conda\envs\task1-semiconductor-ui\python.exe"
+$Python = "C:\Python313\python.exe"
 $RuntimeDir = Join-Path $Root "data\runtime"
 $LogDir = Join-Path $RuntimeDir "logs"
 $PidFile = Join-Path $RuntimeDir "platform_pids.json"
 $SessionSecretFile = Join-Path $RuntimeDir ".session_secret"
 $ApiLauncher = Join-Path $Root "scripts\run_acceptance_api.py"
-$ComposeDir = Join-Path $Root "graphiti-main\graphiti-main"
-if (-not (Test-Path -LiteralPath $ComposeDir)) {
-    $BaseDirectory = Split-Path (Split-Path $Root -Parent) -Parent
-    $OriginalRoot = Get-ChildItem -LiteralPath $BaseDirectory -Directory | Where-Object {
-        (Test-Path (Join-Path $_.FullName ".git")) -and
-        (Test-Path (Join-Path $_.FullName "graphiti-main"))
-    } | Select-Object -First 1 -ExpandProperty FullName
-    if (-not $OriginalRoot) { throw "Original project root was not found" }
-    $ComposeDir = Join-Path $OriginalRoot "graphiti-main\graphiti-main"
-}
+$ComposeDir = $Root
 
 function Test-Port([int]$Port) {
     return [bool](Get-NetTCPConnection -State Listen -LocalPort $Port -ErrorAction SilentlyContinue)
