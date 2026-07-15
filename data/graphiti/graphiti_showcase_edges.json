@@ -1,0 +1,356 @@
+{
+  "focus_companies": [
+    "华为",
+    "浪潮信息",
+    "沐曦",
+    "壁仞科技",
+    "海思",
+    "摩尔线程",
+    "Intel",
+    "AMD",
+    "飞腾",
+    "龙芯中科",
+    "紫光展锐",
+    "长鑫存储",
+    "佰维存储",
+    "NVIDIA",
+    "联想",
+    "中兴通讯"
+  ],
+  "product_nodes": [
+    "AI服务器",
+    "数据中心基础设施服务",
+    "AI服务器/云基础设施",
+    "AI一体机解决方案"
+  ],
+  "rows": [
+    {
+      "source": "沐曦",
+      "target": "神州数码",
+      "name": "HAS_BUSINESS_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "摩尔线程",
+      "target": "神州数码",
+      "name": "HAS_BUSINESS_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "神州数码",
+      "target": "Intel",
+      "name": "HAS_BUSINESS_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "AMD",
+      "target": "神州数码",
+      "name": "HAS_BUSINESS_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "神州数码",
+      "target": "瑞芯微",
+      "name": "HAS_BUSINESS_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "长鑫存储",
+      "target": "神州数码",
+      "name": "HAS_BUSINESS_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "佰维存储",
+      "target": "神州数码",
+      "name": "HAS_BUSINESS_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "大普微",
+      "target": "神州数码",
+      "name": "HAS_BUSINESS_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "紫光国芯",
+      "target": "神州数码",
+      "name": "HAS_BUSINESS_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "壁仞科技",
+      "target": "神州数码",
+      "name": "HAS_PUBLIC_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "海思",
+      "target": "神州数码",
+      "name": "HAS_PUBLIC_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "飞腾",
+      "target": "神州数码",
+      "name": "HAS_PUBLIC_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "龙芯中科",
+      "target": "神州数码",
+      "name": "HAS_PUBLIC_RELATIONSHIP",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "神州数码",
+      "target": "浪潮信息",
+      "name": "COLLABORATES_WITH",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "神州数码",
+      "target": "AI一体机解决方案",
+      "name": "DEVELOPS",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "浪潮信息",
+      "target": "AI一体机解决方案",
+      "name": "DEVELOPS",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "紫光展锐",
+      "target": "神州数码",
+      "name": "HAS_BUSINESS_RELATIONSHIP_WITH",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "工业富联",
+      "target": "数据中心基础设施服务",
+      "name": "INTEGRATES",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "浪潮信息",
+      "target": "AI GPU和加速计算生态",
+      "name": "INTEGRATES",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "联想",
+      "target": "AI/GPU/CPU算力芯片",
+      "name": "INTEGRATES",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "神州数码",
+      "target": "AI服务器",
+      "name": "INTEGRATES",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "神州数码",
+      "target": "AI服务器/云基础设施",
+      "name": "INTEGRATES",
+      "relationship_type": null,
+      "relationship_status": null,
+      "current_validity": null
+    },
+    {
+      "source": "华为",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "鲲鹏/昇腾生态适配与国产算力方案",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开关系当前支持；内部客户关系需验证"
+    },
+    {
+      "source": "中兴通讯",
+      "target": "神州数码",
+      "name": "需内部验证关系",
+      "relationship_type": "通信网络/ICT方案匹配待验证",
+      "relationship_status": "needs_internal_validation",
+      "current_validity": "需要内部验证"
+    },
+    {
+      "source": "浪潮信息",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "AI一体机联合发布与方案协同",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开关系当前支持；内部客户关系需验证"
+    },
+    {
+      "source": "NVIDIA",
+      "target": "神州数码",
+      "name": "潜在业务匹配",
+      "relationship_type": "AI算力生态潜在协同",
+      "relationship_status": "potential_fit",
+      "current_validity": "需要内部验证"
+    },
+    {
+      "source": "联想",
+      "target": "神州数码",
+      "name": "需内部验证关系",
+      "relationship_type": "服务器/终端/ICT匹配待验证",
+      "relationship_status": "needs_internal_validation",
+      "current_validity": "需要内部验证"
+    },
+    {
+      "source": "沐曦",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "国产芯片品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "摩尔线程",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "国产芯片品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "壁仞科技",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "国产芯片品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "海思",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "国产芯片/主控品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "Intel",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "主控品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "AMD",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "主控品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "飞腾",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "主控品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "龙芯中科",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "主控品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "紫光展锐",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "主控品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "瑞芯微",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "主控品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "长鑫存储",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "存储品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "佰维存储",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "存储品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "大普微",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "存储品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    },
+    {
+      "source": "紫光国芯",
+      "target": "神州数码",
+      "name": "公开可验证关系",
+      "relationship_type": "存储品牌引入/电子元器件业务关系",
+      "relationship_status": "confirmed_public_relationship",
+      "current_validity": "公开年报支持；内部客户/交易关系需验证"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dual-frontend-api-server"
+version = "0.1.0"
+description = "双前端验收平台的 FastAPI 基础服务与观测存储"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "graphiti-core>=0.29,<0.30",
+    "httpx>=0.27,<1",
+    "networkx>=3.4,<4",
+    "openai>=2,<3",
+    "opentelemetry-api>=1.30,<2",
+    "opentelemetry-exporter-otlp>=1.30,<2",
+    "opentelemetry-sdk>=1.30,<2",
+    "pydantic>=2.8",
+    "pypdf>=5,<7",
+    "python-multipart>=0.0.20,<1",
+    "uvicorn[standard]>=0.30",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore:Using `httpx` with `starlette.testclient` is deprecated",
+]

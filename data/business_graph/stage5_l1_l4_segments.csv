@@ -1,0 +1,35 @@
+﻿l1,l2,l3,l4_name,l4_code,subsegment_role,source_value_chain_layer,source_major_segment,source_subsegment_name,is_focus_scope
+上游,设计支撑,EDA/IP,EDA软件,L4-UPSTREAM-EDA软件,芯片设计软件、验证、仿真和全流程设计平台。,上游/设计支撑,EDA/IP,EDA软件,false
+上游,设计支撑,EDA/IP,半导体IP/芯片定制,L4-UPSTREAM-半导体IP-芯片定制,可复用IP核、接口IP、处理器IP和芯片定制服务。,上游/设计支撑,EDA/IP,半导体IP/芯片定制,false
+中游,设计与产品,芯片设计/Fabless,AI/GPU/CPU算力芯片,L4-MIDSTREAM-AI-COMPUTE-CHIP,AI训练/推理、GPU、CPU、DPU和定制加速芯片。,中游/设计与产品,芯片设计/Fabless,AI/GPU/CPU算力芯片,true
+中游,设计与产品,芯片设计/Fabless,手机SoC/通信基带,L4-MIDSTREAM-MOBILE-SOC,移动SoC、蜂窝基带、射频前端和通信处理器。,中游/设计与产品,芯片设计/Fabless,手机SoC/通信基带,true
+中游,设计与产品,芯片设计/Fabless,模拟/RF/MCU/传感器,L4-MIDSTREAM-ANALOG-RF-MCU-SENSOR,模拟芯片、射频、MCU、CIS图像传感器等产品。,中游/设计与产品,芯片设计/Fabless,模拟/RF/MCU/传感器,true
+中游,制造,晶圆制造/Foundry-IDM,晶圆代工/Foundry,L4-MIDSTREAM-晶圆代工-Foundry,为Fabless客户提供逻辑、成熟制程、特色工艺晶圆制造。,中游/制造,晶圆制造/Foundry-IDM,晶圆代工/Foundry,false
+中游,制造,晶圆制造/Foundry-IDM,IDM/特色工艺制造,L4-MIDSTREAM-IDM-特色工艺制造,自有设计与制造一体化，覆盖模拟、功率、汽车和特色工艺。,中游/制造,晶圆制造/Foundry-IDM,IDM/特色工艺制造,false
+上游,制造支撑,半导体设备,光刻设备,L4-UPSTREAM-光刻设备,光刻机、涂胶显影及图形化关键设备。,上游/制造支撑,半导体设备,光刻设备,false
+上游,制造支撑,半导体设备,刻蚀设备,L4-UPSTREAM-刻蚀设备,等离子刻蚀、介质刻蚀、硅刻蚀和深硅刻蚀设备。,上游/制造支撑,半导体设备,刻蚀设备,false
+上游,制造支撑,半导体设备,薄膜沉积设备,L4-UPSTREAM-薄膜沉积设备,PVD、CVD、ALD、外延等薄膜工艺设备。,上游/制造支撑,半导体设备,薄膜沉积设备,false
+上游,制造支撑,半导体设备,清洗/CMP/热处理设备,L4-UPSTREAM-清洗-CMP-热处理设备,清洗、CMP抛光、热处理和相关晶圆制程设备。,上游/制造支撑,半导体设备,清洗/CMP/热处理设备,false
+上游,制造支撑,半导体设备,量测检测设备,L4-UPSTREAM-量测检测设备,缺陷检测、薄膜量测、CD量测和过程控制设备。,上游/制造支撑,半导体设备,量测检测设备,false
+上游,制造支撑,半导体设备,测试设备,L4-UPSTREAM-测试设备,SoC、存储、模拟和功率器件测试机及分选设备。,上游/制造支撑,半导体设备,测试设备,false
+上游,制造支撑,半导体材料,硅片,L4-UPSTREAM-硅片,半导体级硅片、外延片和相关晶圆基材。,上游/制造支撑,半导体材料,硅片,false
+上游,制造支撑,半导体材料,光刻胶/配套材料,L4-UPSTREAM-光刻胶-配套材料,光刻胶、显影液、BARC和光刻配套材料。,上游/制造支撑,半导体材料,光刻胶/配套材料,false
+上游,制造支撑,半导体材料,电子气体/湿电子化学品,L4-UPSTREAM-电子气体-湿电子化学品,电子特气、高纯化学品、清洗和蚀刻用湿化学品。,上游/制造支撑,半导体材料,电子气体/湿电子化学品,false
+上游,制造支撑,半导体材料,靶材,L4-UPSTREAM-靶材,溅射靶材、金属材料和先进制程薄膜材料。,上游/制造支撑,半导体材料,靶材,false
+上游,制造支撑,半导体材料,CMP材料,L4-UPSTREAM-CMP材料,CMP抛光液、抛光垫和相关平坦化材料。,上游/制造支撑,半导体材料,CMP材料,false
+上游,制造支撑,半导体材料,封装材料/IC载板,L4-UPSTREAM-封装材料-IC载板,ABF载板、BT载板、封装基板和封装材料。,上游/制造支撑,半导体材料,封装材料/IC载板,false
+中游,封装测试,先进封装,2.5D/3D/Chiplet先进封装,L4-MIDSTREAM-ADVANCED-PACKAGING,CoWoS、Fan-out、Foveros、Chiplet和异构集成。,中游/封装测试,先进封装,2.5D/3D/Chiplet先进封装,true
+中游,封装测试,传统封装测试/OSAT,传统OSAT封装测试,L4-MIDSTREAM-OSAT,传统封装、测试和后段制造服务。,中游/封装测试,传统封装测试/OSAT,传统OSAT封装测试,true
+中游,产品与制造,存储/HBM,DRAM/HBM,L4-MIDSTREAM-DRAM-HBM,DRAM、HBM高带宽存储及AI服务器存储产品。,中游/产品与制造,存储/HBM,DRAM/HBM,false
+中游,产品与制造,存储/HBM,NAND Flash,L4-MIDSTREAM-NAND-Flash,NAND闪存、3D NAND和存储晶圆制造。,中游/产品与制造,存储/HBM,NAND Flash,false
+中游,产品与制造,存储/HBM,存储控制/模组/NOR,L4-MIDSTREAM-存储控制-模组-NOR,NOR Flash、存储控制器、企业级/消费级存储模组。,中游/产品与制造,存储/HBM,存储控制/模组/NOR,false
+中游,特色器件,功率半导体/SiC-GaN,功率器件/模块,L4-MIDSTREAM-功率器件-模块,IGBT、MOSFET、功率模块和汽车/工业功率器件。,中游/特色器件,功率半导体/SiC-GaN,功率器件/模块,false
+中游,特色器件,功率半导体/SiC-GaN,SiC衬底/外延,L4-MIDSTREAM-SiC衬底-外延,碳化硅衬底、外延片和上游材料。,中游/特色器件,功率半导体/SiC-GaN,SiC衬底/外延,false
+中游,特色器件,功率半导体/SiC-GaN,SiC功率器件/模块,L4-MIDSTREAM-SiC功率器件-模块,SiC MOSFET、二极管、功率模块和车规应用。,中游/特色器件,功率半导体/SiC-GaN,SiC功率器件/模块,false
+中游,特色器件,功率半导体/SiC-GaN,GaN功率/RF器件,L4-MIDSTREAM-GaN功率-RF器件,氮化镓功率器件、射频器件和快充/通信应用。,中游/特色器件,功率半导体/SiC-GaN,GaN功率/RF器件,false
+下游,系统需求,终端应用/系统需求,AI服务器/云基础设施,L4-DOWNSTREAM-AI-INFRA,AI服务器、云计算、数据中心和AI基础设施需求端。,下游/系统需求,终端应用/系统需求,AI服务器/云基础设施,true
+下游,系统需求,终端应用/系统需求,新能源汽车/汽车电子,L4-DOWNSTREAM-AUTO-ELECTRONICS,新能源车、智能驾驶、车载计算和汽车电子需求端。,下游/系统需求,终端应用/系统需求,新能源汽车/汽车电子,true
+下游,系统需求,终端应用/系统需求,消费电子/通信设备,L4-DOWNSTREAM-ICT-DEVICE,智能手机、PC、通信设备、网络设备和终端生态。,下游/系统需求,终端应用/系统需求,消费电子/通信设备,true
+下游,系统需求,云与互联网平台,云服务/互联网平台,L4-DOWNSTREAM-CLOUD-INTERNET-PLATFORM,公有云、AI云平台、互联网数据中心和大模型训练/推理基础设施需求端。,下游/系统需求,云与互联网平台,云服务/互联网平台,true
+下游,系统需求,通信网络基础设施,通信网络基础设施,L4-DOWNSTREAM-TELECOM-NETWORK-INFRA,运营商网络、基站、核心网、数据中心网络和企业网络基础设施需求端。,下游/系统需求,通信网络基础设施,通信网络基础设施,true
+下游,系统需求,智能终端/PC,智能终端/PC,L4-DOWNSTREAM-SMART-DEVICE-PC,手机、PC、平板、AI终端和智能硬件整机需求端。,下游/系统需求,智能终端/PC,智能终端/PC,true

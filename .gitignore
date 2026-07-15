@@ -1,0 +1,54 @@
+# 密钥与敏感信息
+AI 工具密钥.md
+*.env
+.env
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# vendored 开源仓库（不纳入版本管理）
+LightRAG-main/
+crawl4ai-main/
+docling-main/
+firecrawl-main/
+graphiti-main/
+graphrag-main/
+
+# 大文件 / 二进制资料
+压缩包/
+*.pptx
+*.pdf
+*.jpg
+*.png
+
+# Neo4j 导出与搜索失败日志（运行产物）
+data/evidence/search_failures.jsonl
+data/evidence/*_checkpoint.json
+data/graphiti/*.log
+data/graphiti/*.out
+data/graphiti/*.err
+data/graphiti/*.pid
+data/graphiti/*failures*.jsonl
+data/graphiti/background_*
+
+# 双前端与本地观测运行产物
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+playwright-report/
+test-results/
+data/runtime/
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
