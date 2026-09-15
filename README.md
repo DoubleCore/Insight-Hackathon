@@ -93,5 +93,11 @@
 - 语义召回负责理解问题，词面召回负责命中公司名、产品名和中文环节名。
 - 时间字段支持数据更新、关系有效性判断和后续时序分析。
 
+## 相关竞赛经历
+
+- **第二届 NVIDIA DGX Spark 黑客松** · [`WanderInk`](https://github.com/DoubleCore/WanderInk) · **优秀奖**
+  - 景区有声连环画 Agent
+  - DGX Spark 多模型协同与多模态内容生成
+
 完整答辩材料见 [docs/defense-summary.md](docs/defense-summary.md)。
 原始项目说明见 [docs/README.md](docs/README.md)。
